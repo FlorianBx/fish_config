@@ -61,7 +61,7 @@ fish_vi_key_bindings
 
 function fish_user_key_bindings
   fish_vi_key_bindings
-	bind -M insert -m default jk backward-char force-repaint
+	bind -M insert -m default jj backward-char force-repaint
 	bind -M insert \t accept-autosuggestion
 end
 
